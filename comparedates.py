@@ -20,7 +20,7 @@ def Heb_date(day, month, year):
 
 
 my_heb_date = Heb_date(day, month, year)
-print 'Born date:', my_heb_date, '(' + greg_day + '/' + month + '/' + year + ')'
+print 'Born date:', my_heb_date.decode('utf-8'), '(' + greg_day + '/' + month + '/' + year + ')'
 year = int(year) +1
 age = 1
 my_heb_date = ''.join(my_heb_date.split(' ')[0]) + ' ' + ''.join(my_heb_date.split(' ')[1])
@@ -29,6 +29,6 @@ while age != 100:
     chk = Heb_date(day, month, year)
     chk_1 = ''.join(chk.split(' ')[0]) + ' ' + ''.join(chk.split(' ')[1])
     if chk_1 == my_heb_date:
-        print 'Age:', age, '(' + greg_day + '/' + month + '/' + str(year), chk + ')'
+        print 'Age:', age, '(' + greg_day + '/' + month + '/' + str(year), chk.decode('utf-8') + ')'
     year += 1
     age += 1
