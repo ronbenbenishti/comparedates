@@ -10,6 +10,8 @@ The Jewish date is based on the data at shoresh.org.il
 
 ## Prerequisites: ##
 * python 2.7
+* requests module
+* hebrew encoding (utf-8)
   
 ## Installing ##
 ```sh
