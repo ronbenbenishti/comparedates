@@ -17,4 +17,4 @@ git clone https://github.com/ronbenbenishti/comparedates.git
 ```
 
 ## Screenshot
-![Image]()
+![Image](https://raw.githubusercontent.com/ronbenbenishti/comparedates/master/ss.png)
